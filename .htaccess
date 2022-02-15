@@ -1,0 +1,32 @@
+# <IfModule mod_rewrite.c>
+#     # <IfModule mod_negotiation.c>
+#     #     Options -MultiViews -Indexes
+#     # </IfModule>
+
+#     RewriteEngine On
+
+#     # Handle Authorization Header
+#     # RewriteCond %{HTTP:Authorization} .
+#     RewriteRule ^$ public/ [L]
+#     RewriteRule (.*) public/$1 [L]
+ 
+
+#     # Redirect Trailing Slashes If Not A Folder...
+#     # RewriteCond %{REQUEST_FILENAME} !-d
+#     # RewriteCond %{REQUEST_URI} (.+)/$
+    
+
+#     # Send Requests To Front Controller...
+#     # RewriteCond %{REQUEST_FILENAME} !-d
+#     # RewriteCond %{REQUEST_FILENAME} !-f
+#  </IfModule>
+# # <IfModule mod_rewrite.c> 
+# # RewriteEngine On RewriteRule ^(.*)$ public/$1 [L] </IfModule>
+
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^$ public/ [L]
+  RewriteRule (.*) public/$1 [L]
+</IfModule>
+
