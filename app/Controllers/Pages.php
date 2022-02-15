@@ -1,5 +1,4 @@
 <?php
- 
 class Pages extends Controller{
     public function __construct(){
         // echo 'Loaded';
@@ -10,19 +9,19 @@ class Pages extends Controller{
         // $users = $this->userModel->getUsers();
         $data= [
             'title' =>'Home page',
-            // 'users'=>$users
+           
              
         ];
         $this->view('pages/index',$data);
     }
-    // public function About(){
-    //     // echo "Aboutpage";
-    //     $data= [
-    //         'title' =>'Home page',
-    //         // 'users'=>$users
-             
-    //     ];
-    //     $this->view('users/login',$data);
+    public function About(){
+      
+        $this->view('about');
+
+    }
+    // public function Login(){
+      
+    //     $this->view('users/login');
 
     // }
 }
