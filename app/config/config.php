@@ -8,7 +8,7 @@ define('DB_NAME' ,'mvc');
 define('APPROOT',dirname(dirname(__FILE__))); 
 
 // URLROOT(dynamic link)
-// define('URLROOT','localhost/mvc');
+ define('URLROOT','http://localhost/LoginWithPdo');
 
 define('SITENAME','MVC Framework');
  

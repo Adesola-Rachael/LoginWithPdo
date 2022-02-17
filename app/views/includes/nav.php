@@ -47,7 +47,13 @@
                     </ul>
 
                 <ul class="ml-lg-auto list-unstyled m-0 nav-btn">
-                    <li><a href="#" class="btn btn-trans-white btn-circled">Login</a></li>
+                    <!-- <?php if(isset($_SESSION['user_id']))?>
+                    <li><a href="<?php echo URLROOT;?>/users/login" class="btn btn-trans-white btn-circled">Login</a></li> -->
+                    <?php if(isset($_SESSION['user_id'])) : ?>
+                    <a href="<?php echo URLROOT; ?>/users/logout" class="btn btn-trans-white btn-circled">Log out</a>
+                    <?php else : ?>
+                        <a href="<?php echo URLROOT; ?>/users/login" class="btn btn-trans-white btn-circled">Login</a>
+                    <?php endif; ?>
                 </ul>
             </div> <!-- / .navbar-collapse -->
         </div> <!-- / .Container -->

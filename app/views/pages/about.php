@@ -1,1 +1,1 @@
-welcome to about ,php
+<?php echo APPROOT; ?>

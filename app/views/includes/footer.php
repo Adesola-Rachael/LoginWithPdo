@@ -132,19 +132,19 @@
 
     
     <!-- Main jQuery -->
-    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="<?php echo URLROOT ?>/public/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 3.1 -->
-    <script src="plugins/bootstrap/js/popper.min.js"></script>
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?php echo URLROOT ?>/public/plugins/bootstrap/js/popper.min.js"></script>
+    <script src="<?php echo URLROOT ?>/public/plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- Slick Slider -->
-    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="<?php echo URLROOT ?>/public/plugins/slick-carousel/slick/slick.min.js"></script>
+    <script src="<?php echo URLROOT ?>/public/js/jquery.easing.1.3.js"></script>
     <!-- Map Js -->
-    <script src="plugins/google-map/gmap3.min.js"></script>
+    <script src="<?php echo URLROOT ?>/public/plugins/google-map/gmap3.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script>
 
-    <script src="js/form/contact.js"></script>
-    <script src="js/theme.js"></script>
+    <script src="<?php echo URLROOT ?>/public/js/form/contact.js"></script>
+    <script src="<?php echo URLROOT ?>/public/js/theme.js"></script>
 
   </body>
   </html>
