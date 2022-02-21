@@ -17,7 +17,7 @@
  <!-- HERO
     ================================================== -->
     <?php require APPROOT .'/views/includes/nav.php';?>
-    <?php var_dump($_SESSION) ?>
+ 
     <div class="container">
         <div class="row  align-items-center justify-content-center">
             
